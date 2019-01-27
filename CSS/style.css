@@ -1,0 +1,399 @@
+/*CSS for the other pages of the website*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.frame svg {
+    position: absolute;
+    margin: 10px 0px 0px 30px;
+    height: 100px;
+    width: 250px;
+    fill: #000000;
+    float: left;
+}
+
+svg:hover #DLogo {
+    fill: #dbdbdb;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 25px 35px 25px 25px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:first-child) {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    display: inline-block;
+    outline: none;
+    color: #000000;
+    font-size: 23px;
+    font-family: serif;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+}
+
+nav ul li a:hover {
+    color: #6b6b6b;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 820px) {
+    .nav-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 45%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0;
+        transition: all 0.2s ease;
+        background-color: #b8b6b680;
+    }
+
+    .nav-container ul {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+
+    .nav-container ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .nav-container ul li:nth-child(1) a {
+        transition-delay: 0.2s;
+    }
+
+    .nav-container ul li:nth-child(2) a {
+        transition-delay: 0.3s;
+    }
+
+    .nav-container ul li:nth-child(3) a {
+        transition-delay: 0.4s;
+    }
+
+    .nav-container ul li:nth-child(4) a {
+        transition-delay: 0.5s;
+    }
+
+    .nav-container ul li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .nav-container ul li a {
+        padding: 5px 10px 10px 0px;
+        opacity: 0;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+        transform: translateY(-20px);
+        transition: all 0.2s ease;
+
+    }
+
+    .nav-open {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: block;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        z-index: 9999;
+        border-radius: 50%;
+    }
+
+    .nav-open i {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #000000;
+        border-radius: 2px;
+        margin-left: 14px;
+    }
+
+    .nav-open i:nth-child(1) {
+        margin-top: 16px;
+    }
+
+    .nav-open i:nth-child(2) {
+        margin-top: 4px;
+        opacity: 1;
+    }
+
+    .nav-open i:nth-child(3) {
+        margin-top: 4px;
+    }
+}
+
+#nav:checked+.nav-open {
+    transform: rotate(45deg);
+}
+
+#nav:checked+.nav-open i {
+    background: #000000;
+    transition: transform 0.2s ease;
+}
+
+#nav:checked+.nav-open i:nth-child(1) {
+    transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked+.nav-open i:nth-child(2) {
+    opacity: 0;
+}
+
+#nav:checked+.nav-open i:nth-child(3) {
+    transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked~.nav-container {
+    z-index: 9990;
+    opacity: 1;
+}
+
+#nav:checked~.nav-container ul li a {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Add the following compatibility code for IE as you can't animate background-size in IE*/
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .textOverImage {
+        background-size: cover !important;
+    }
+}
+
+.textOverImage {
+    position: relative;
+    width: 220px;
+    max-width: 50%;
+    height: 220px;
+    float: left;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.textOverImage:hover {
+    background-size: cover;
+}
+
+#SPC {
+    padding-top: 100px;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.textOverImage:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(90%);
+    /*use transform:translateY(100%); to remove footer*/
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    content: attr(data-title);
+    transition: 0.5s 0.1s;
+    color: #fff;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.textOverImage:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 8px;
+    content: attr(data-text);
+    transition: 0.5s;
+    padding-top: 2em;
+    margin-top: 8px;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.textOverImage:hover:after {
+    transform: translateY(0);
+    transition: 0.5s 0.1s;
+    opacity: 1;
+}
+
+.textOverImage:hover:before {
+    transform: translateY(0);
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+[data-title] {
+    font-size: 12px;
+    padding: 10px;
+}
+
+#C-Div {
+    border: 2px rgb(143, 143, 143) solid;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center
+}
+
+#C-Div article {
+    width: 95%;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 22px;
+    font-family: arial;
+}
+
+#C-Div h1 {
+    font-family: arial;
+    padding: 10px 50px 0px 50px
+}
+
+#C-Div a {
+    color: #3967ff;
+}
+
+#C-Div a:hover {
+    color: #019242;
+}
+
+#JLC {
+    display: inline-block;
+    margin: 20px 00px 0px 0px;
+    padding: 10px;
+    height: 110px;
+    max-width: 50%;
+    width: 300px;
+}
+
+.ACC {
+    display: inline-block;
+    margin: 20px 20px 110px 0px;
+    height: 200px;
+    width: 200px;
+    max-width: 20%;
+}
+
+.ACC:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+}
+
+#CONSTRC {
+    width: 200px;
+    height: 200px;
+}
+
+#CONSTRC:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #999999;
+    color: #2e2e2e;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    color: #ffffff;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 90%;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: 0px 2px 0px 2px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 55px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 55px;
+}
