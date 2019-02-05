@@ -99,7 +99,7 @@ body {
 }
 
 #RDM {
-  margin: 150px 0px 230px 60px;
+  margin: 100px 0px 100px 60px;
   padding: 30px;
   text-align: center;
   border: 3px solid #ffffff;
@@ -134,7 +134,6 @@ body {
 footer {
   width: 70%;
   float: right;
-  padding: 10px;
   text-align: right;
 }
 
