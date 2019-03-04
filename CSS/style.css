@@ -605,8 +605,46 @@ input[type=submit]:hover {
     top: 20%;
 }
 
-#SPEC {
+#SPEC2 {
     margin-top: 80px;
+}
+
+#SPEC,
+#SPEC-INDVL {
+    margin-top: 80px;
+    padding: 0px 60px 40px 60px;
+    text-align: center;
+}
+
+#SPEC img {
+    width: 95%;
+    height: 50vw;
+    margin: 0 auto;
+    padding: 20px 0px 40px 0px;
+}
+
+#SPEC h2,
+h1,
+b {
+    padding-bottom: 20px;
+    color: #007e11;
+}
+
+#SPEC p {
+    font-size: 20px;
+}
+
+#SPEC-INDVL article {
+    font-size: 20px;
+}
+
+#SPEC-INDVL h1 {
+    font-size: 40px;
+    color: #303030;
+}
+
+#SPEC-INDVL h3 {
+    color: #19707c;
 }
 
 #DVSD p {
@@ -628,4 +666,8 @@ input[type=submit]:hover {
 
 #DVSD a:hover {
     color: #00c41a;
+}
+
+.containerFRM {
+    padding: 20px;
 }
