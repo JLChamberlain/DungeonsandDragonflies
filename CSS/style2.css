@@ -15,6 +15,13 @@
 .list--item figure {
     background: #e9e9e9;
     position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.list--item figure:hover {
+    background: #2fbd82;
+    color: #ffffff;
 }
 
 .list--item img {
@@ -72,10 +79,6 @@
     }
 }
 
-figure {
-    text-align: center;
-    margin: 0 auto;
-}
 
 #SPECLST {
     width: 85%;

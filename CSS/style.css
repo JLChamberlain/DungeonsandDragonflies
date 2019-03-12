@@ -276,6 +276,7 @@ a {
     margin: 0 auto;
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #C-Div article {
@@ -643,7 +644,13 @@ b {
     color: #303030;
 }
 
+#SPEC-INDVL h2 {
+    font-size: 30px;
+    color: #19707c;
+}
+
 #SPEC-INDVL h3 {
+    font-size: 20px;
     color: #19707c;
 }
 
