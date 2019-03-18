@@ -649,6 +649,11 @@ b {
     color: #19707c;
 }
 
+#SPEC-INDVL b,
+#SPEC-INDVL a {
+    color: #19707c;
+}
+
 #SPEC-INDVL h3 {
     font-size: 20px;
     color: #19707c;
