@@ -1,7 +1,11 @@
-/*CSS for the other pages of the website*/
+/* CSS for the other pages of the website */
 body {
     margin: 0px;
     padding: 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .frame svg {
@@ -58,17 +62,17 @@ nav ul li a:hover {
         position: fixed;
         top: 0;
         left: 0;
-        height: 45%;
+        height: 100%;
         width: 100%;
         z-index: -1;
         opacity: 0;
         transition: all 0.2s ease;
-        background-color: #b8b6b680;
+        background-color: #ffffffec;
     }
 
     .nav-container ul {
         position: absolute;
-        top: 50%;
+        top: 160px;
         transform: translateY(-50%);
         width: 100%;
     }
@@ -182,10 +186,6 @@ nav ul li a:hover {
     display: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 /*Add the following compatibility code for IE as you can't animate background-size in IE*/
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
@@ -271,8 +271,8 @@ a {
 }
 
 #C-Div {
-    border: 2px #8f8f8f solid;
-    width: 90%;
+    border: 2px #cfcfcf solid;
+    width: 95%;
     margin: 0 auto;
     margin-top: 100px;
     text-align: center;
@@ -289,12 +289,14 @@ a {
 }
 
 #C-Div h1 {
-    font-family: arial;
-    padding: 10px 50px 0px 50px
+    font-family: serif;
+    color: #19707C;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
 }
 
 #C-Div a {
-    color: #3967ff;
+    color: #19707C;
 }
 
 #C-Div a:hover {
@@ -314,7 +316,7 @@ a {
     display: inline-block;
     margin: 20px 20px 110px 0px;
     height: 15vw;
-    width: 100vw;
+    width: 90vw;
     max-width: 20%;
 }
 
@@ -322,21 +324,6 @@ a {
     opacity: 0.7;
     filter: alpha(opacity=70);
     /* For IE8 and earlier */
-}
-
-#CONSTRC {
-    width: 200px;
-    height: 200px;
-}
-
-#CONSTRC:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=70);
-    /* For IE8 and earlier */
-}
-
-* {
-    box-sizing: border-box;
 }
 
 input[type=text],
@@ -611,7 +598,8 @@ input[type=submit]:hover {
 }
 
 #SPEC,
-#SPEC-INDVL {
+#SPEC-INDVL,
+#LRNM {
     margin-top: 80px;
     padding: 0px 60px 40px 60px;
     text-align: center;
@@ -635,33 +623,82 @@ b {
     font-size: 20px;
 }
 
-#SPEC-INDVL article {
+#SPEC-INDVL article,
+#LRNM article {
     font-size: 20px;
 }
 
-#SPEC-INDVL h1 {
+#SPEC-INDVL h1,
+#LRNM h1 {
     font-size: 40px;
     color: #303030;
 }
 
-#SPEC-INDVL h2 {
+#SPEC-INDVL h2,
+#LRNM h2 {
     font-size: 30px;
     color: #19707c;
 }
 
 #SPEC-INDVL b,
-#SPEC-INDVL a {
+#SPEC-INDVL a,
+#LRNM b,
+#LRNM a {
     color: #19707c;
 }
 
-#SPEC-INDVL h3 {
+#LRNM figcaption {
+    font-family: serif;
+    font-size: .8em;
+    color: #5c5c5c;
+    background: #e9e8e8;
+    border-radius: 2px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#SPEC-INDVL h3,
+#LRNM h3 {
     font-size: 20px;
     color: #19707c;
 }
 
+@media screen and (max-width: 900px) {
+
+    #LRNM img,
+    #LRNM figcaption {
+        width: 100%;
+    }
+}
+
+/* Style and formatting for Emergence sequence on "learn-more.html" */
+#L-Cycle {
+    padding-left: 20px;
+}
+
+#L-Cycle td {
+    max-width: 400px;
+}
+
+#L-Cycle img {
+    width: 80%;
+    height: 50%;
+}
+
+@media screen and (max-width: 400px) {
+
+    #L-Cycle {
+        width: 100%;
+    }
+}
+
+/* Style for Emergence end */
+
 #DVSD p {
     color: #00c41a;
-    font-size: 30px
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
 }
 
 #DVSD {
@@ -680,6 +717,67 @@ b {
     color: #00c41a;
 }
 
+
 .containerFRM {
     padding: 20px;
+}
+
+.td-img img {
+    width: 70%;
+    height: 200px;
+    margin: 10px;
+}
+
+#C-Div table {
+    background-color: #f3f1f1;
+    margin: 0px 10px 0px 10px;
+}
+
+.td-img img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+}
+
+td {
+    font-size: 20px;
+}
+
+td b,
+td h3 {
+    color: #19707C;
+}
+
+.td-img {
+    width: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    .td-img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .td-img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .td-img {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .td-img img {
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .td-img img {
+        height: 20%;
+    }
 }
