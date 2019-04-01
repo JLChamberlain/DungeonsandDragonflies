@@ -67,12 +67,13 @@ nav ul li a:hover {
         z-index: -1;
         opacity: 0;
         transition: all 0.2s ease;
-        background-color: #ffffffec;
+        background-color: #fffffff6;
     }
 
     .nav-container ul {
         position: absolute;
-        top: 160px;
+        top: 150px;
+        right: 15px;
         transform: translateY(-50%);
         width: 100%;
     }
