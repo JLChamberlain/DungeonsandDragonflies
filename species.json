@@ -1,0 +1,574 @@
+[
+    {
+        "filterName": [
+            "aeshna affinis",
+            "southern migrant hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Southern-Migrant-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/Aeshna affinis m 3 Tim Caroen(small).jpg",
+        "altText": "Male Southern Migrant Hawker by Tim Caroen",
+        "title": "Aeshna affinis",
+        "caption": "Southern Migrant Hawker"
+    },
+    {
+        "filterName": [
+            "aeshna caerulea",
+            "azure hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Azure-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/Aeshna caerulea m - Erland R.N. - flickr.jpg",
+        "altText": "Male Aeshna caerulea by Erland R.N.",
+        "title": "Aeshna caerulea",
+        "caption": "Azure Hawker"
+    },
+    {
+        "filterName": [
+            "aeshna cyanea",
+            "southern hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Southern-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/Aeshna cyanea m 2 David Kitching(small).jpg",
+        "altText": "Male Aeshna cyanea by David Kitching",
+        "title": "Aeshna cyanea",
+        "caption": "Southern Hawker"
+    },
+    {
+        "filterName": [
+            "aeshna grandis",
+            "brown hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Brown-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/Aeshna grandis f 4 Graham Bayliss(small).jpg",
+        "altText": "Female Aeshna grandis by Bayliss",
+        "title": "Aeshna grandis",
+        "caption": "Brown Hawker"
+    },
+    {
+        "filterName": [
+            "aeshna juncea",
+            "common hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Common-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/Aeshna juncea f 2 David Kitching(small).jpg",
+        "altText": "Female Aeshna juncea by David Kitching",
+        "title": "Aeshna juncea",
+        "caption": "common Hawker"
+    },
+    {
+        "filterName": [
+            "aeshna mixta",
+            "common hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Migrant-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/aeshna mixta f 1 David Kitching(small).jpg",
+        "altText": "Female Aeshna mixta by David Kitching",
+        "title": "Aeshna mixta",
+        "caption": "Migrant Hawker"
+    },
+    {
+        "filterName": [
+            "anaciaeschna isoceles",
+            "norfolk hawker"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Norfolk-Hawker.html",
+        "imgUrl": "./IMG/dragonflies/Aeshna isosceles f Damian Pinguey(small).jpg",
+        "altText": "Female Anaciaeschna isoceles by Damian Pinguey",
+        "title": "Anaciaeschna isoceles",
+        "caption": "Norfolk Hawker"
+    },
+    {
+        "filterName": [
+            "anax ephippiger",
+            "vagrant emperor"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Vagrant-Emperor.html",
+        "imgUrl": "./IMG/dragonflies/Anax ephipigger f 3 Aetven.jpg",
+        "altText": "Female Anax ephippiger by A Steven",
+        "title": "Anax ephippiger",
+        "caption": "Vagrant Emperor"
+    },
+    {
+        "filterName": [
+            "anax imperator",
+            "emperor dragonfly"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Emperor-Dragonfly.html",
+        "imgUrl": "./IMG/dragonflies/Anax imperator f 2 David Kitching(small).jpg",
+        "altText": "Female Anax imperator by David Kitching",
+        "title": "Anax imperator",
+        "caption": "Emperor Dragonfly"
+    },
+    {
+        "filterName": [
+            "anax parthenope",
+            "lesser emperor"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Lesser-Emperor.html",
+        "imgUrl": "./IMG/dragonflies/Anax parthenope f Greg Osborn(small).jpg",
+        "altText": "Female Anax parthenope by Greg Osborn",
+        "title": "Anax parthenope",
+        "caption": "Lesser Emperor"
+    },
+    {
+        "filterName": [
+            "brachytron pratense",
+            "hairy Dragonfly"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Hairy-Dragonfly.html",
+        "imgUrl": "./IMG/dragonflies/Brachytron pratense f 2 David Kitching(small).jpg",
+        "altText": "Female Brachytron pratense by David Kitching",
+        "title": "Brachytron pratense",
+        "caption": "Hairy Dragonfly"
+    },
+    {
+        "filterName": [
+            "calopteryx splendens",
+            "banded demoiselle"
+        ],
+        "url": "./Species HTML/Damselfy Species/Banded-Demoiselle.html",
+        "imgUrl": "./IMG/damselflies/Calopteryx splendens m 1 David Kitching.jpg",
+        "altText": "Male Calopteryx splendens by David Kitching",
+        "title": "Calopteryx splendens",
+        "caption": "Banded Demoiselle"
+    },
+    {
+        "filterName": [
+            "calopteryx virgo",
+            "beautiful demoiselle"
+        ],
+        "url": "./Species HTML/Damselfy Species/Beautiful-Demoiselle.html",
+        "imgUrl": "./IMG/damselflies/Calopteryx virgo m Tim Melling (small).jpg",
+        "altText": "Male Calopteryx virgo  by Tim Melling",
+        "title": "Calopteryx virgo",
+        "caption": "Beautiful Demoiselle"
+    },
+    {
+        "filterName": [
+            "ceriagrion tenellum",
+            "small red damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Small-Red-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Ceriagrion tenellum m Antonio A Goncalves copy.jpg",
+        "altText": "Male Ceriagrion tenellum by Antonio Goncalves",
+        "title": "Ceriagrion tenellum",
+        "caption": "Small Red Damselfly"
+    },
+    {
+        "filterName": [
+            "chalcolestest viridis",
+            "willow emerald damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Willow-Emerald-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Lestes viridis f Val Perrin.jpg",
+        "altText": "Female Chalcolestest viridis by Val Perrin",
+        "title": "Chalcolestest viridis",
+        "caption": "Willow Emerald Damselfly"
+    },
+    {
+        "filterName": [
+            "coenagrion hastulatum",
+            "northern damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Northern-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Coenagrion hastulatum m2 Damian Pinguey (small).jpg",
+        "altText": "Male Coenagrion hastulatum by Damian Pinguey",
+        "title": "Coenagrion hastulatum",
+        "caption": "Northern Damselfly"
+    },
+    {
+        "filterName": [
+            "coenagrion mercuriale",
+            "southern damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Southern-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Coenagrion mercuriale f Martin D Parr (small).jpg",
+        "altText": "Female Coenagrion mercuriale by Martin Parr",
+        "title": "Coenagrion mercuriale",
+        "caption": "Southern Damselfly"
+    },
+    {
+        "filterName": [
+            "Coenagrion pulchellum",
+            "variable damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Variable-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Coenagrion pulchellum m 3 David Kitching.jpg",
+        "altText": "Male Coenagrion pulchellum by David Kitching",
+        "title": "Coenagrion pulchellum",
+        "caption": "Variable Damselfly"
+    },
+    {
+        "filterName": [
+            "coenagrion puella",
+            "azure damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Azure-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Coenagrion puella f 2 David Kitching.jpg",
+        "altText": "Female Coenagrion puella by David Kitching",
+        "title": "Coenagrion Puella",
+        "caption": "Azure Damselfly"
+    },
+    {
+        "filterName": [
+            "coenagrion scitulum",
+            "dainty damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Dainty-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Coenagrion scitulum m John Reinecke.jpg",
+        "altText": "Male Coenagrion scitulum by John Reinecke",
+        "title": "Coenagrion scitulum",
+        "caption": "Dainty Damselfly"
+    },
+    {
+        "filterName": [
+            "cordulegaster boltonii",
+            "golden-ringed dragonfly"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Golden-ringed-Dragonfly.html",
+        "imgUrl": "./IMG/dragonflies/Cordulegaster boltonii m 3 David Kitching(small).jpg",
+        "altText": "Male Cordulegaster boltonii by David Kitching",
+        "title": "Cordulegaster boltonii",
+        "caption": "Golden-ringed Dragonfly"
+    },
+    {
+        "filterName": [
+            "cordulia aenea",
+            "downy emerald"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Downy-Emerald.html",
+        "imgUrl": "./IMG/dragonflies/Cordulia aenea m 1 David Kitching.jpg",
+        "altText": "Male Corudlia aenea by David kitching",
+        "title": "Cordulia aenea",
+        "caption": "Downy Emerald"
+    },
+    {
+        "filterName": [
+            "crocothemis erythraea",
+            "scarlett darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Scarlet-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Crocothemis erythraea m Damian Pinguey(small).jpg",
+        "altText": "Male Crocothemis erythraea by Damian Pinguey",
+        "title": "Crocothemis erythraea",
+        "caption": "Scarlett Darter"
+    },
+    {
+        "filterName": [
+            "enallagma cyathigerum",
+            "common blue damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Common-Blue-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Enallagma cyathigerum m 2 David Kitching.jpg",
+        "altText": "Male Enallagma cyathigerum by David Kitching",
+        "title": "Enallagma cyathigerum",
+        "caption": "Common Blue Damselfly"
+    },
+    {
+        "filterName": [
+            "erythromma najas",
+            "red-eyed damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Red-eyed-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Erythromma najas m David Kitching.jpg",
+        "altText": "Male Erythromma najas by David Kitching",
+        "title": "Erythromma najas",
+        "caption": "Red-eyed Damselfly"
+    },
+    {
+        "filterName": [
+            "erythromma viridulum",
+            "small red-eyed damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Small-Red-eyed-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Erythromma viridulum m Pam Taylor(small).jpg",
+        "altText": "Male Erythromma viridulum by Pam Taylor",
+        "title": "Erythromma viridulum",
+        "caption": "Small Red-eyed Damselfly"
+    },
+    {
+        "filterName": [
+            "gomphus vulgatissimus",
+            "common club-tail"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Common-Clubtail.html",
+        "imgUrl": "./IMG/dragonflies/Gomphus vulgatissimus f 2 David Kitching(small).jpg",
+        "altText": "Female Gomphus vulgatissimus by David Kitching",
+        "title": "Gomphus vulgatissimus",
+        "caption": "Common Club-tail"
+    },
+    {
+        "filterName": [
+            "ischnura elegans",
+            "blue tailed damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Blue-tailed-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Ischnura elegans f violacea David Kitching.jpg",
+        "altText": "Female Ischnura elegans by David Kitching",
+        "title": "Ischnura elegans",
+        "caption": "Blue tailed Damselfly"
+    },
+    {
+        "filterName": [
+            "ischnura pumilio",
+            "scarce blue-tailed damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Scarce-Blue-tailed-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Ischnura pumilio m Frederic Barszezak copy.jpg",
+        "altText": "Male Ischnura pumilio by Frederic Barszezak",
+        "title": "Ischnura pumilio",
+        "caption": "Scarce Blue-tailed Damselfly"
+    },
+    {
+        "filterName": [
+            "lestes barbarus",
+            "southern emerald damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Southern-Emerald-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Lestes barbarus f Antonio A Goncalves copy.jpg",
+        "altText": "Female Lestes barbarus by Antonio Goncalves",
+        "title": "Lestes barbarus",
+        "caption": "Southern Emerald Damselfly"
+    },
+    {
+        "filterName": [
+            "lestes dryas",
+            "scarce emerald damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Scarce-Emerald-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/LestesDryas+Mites.jpg",
+        "altText": "Scarce Emerald Damselfly Photo",
+        "title": "Lestes dryas",
+        "caption": "Scarce Emerald Damselfly"
+    },
+    {
+        "filterName": [
+            "lestes sponsa",
+            "emerald damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Emerald-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Lestes sponsa f 2 David Kitching(small).jpg",
+        "altText": "Female Lestes sponsa by David Kitching",
+        "title": "Lestes sponsa",
+        "caption": "Emerald Damselfly"
+    },
+    {
+        "filterName": [
+            "leucorrhinia dubia",
+            "white-faced darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/White-faced-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Leucorrhinia dubia m 1 David Kitching (small).jpg",
+        "altText": "Male Leucorrhinia dubia by David Kitching",
+        "title": "Leucorrhinia dubia",
+        "caption": "White-faced Darter"
+    },
+    {
+        "filterName": [
+            "libellula depressa",
+            "broad-bodied chaser"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Broad-bodied-Chaser.html",
+        "imgUrl": "./IMG/dragonflies/Libellula depressa m 1 David Kitching(small).jpg",
+        "altText": "Male Libellula depressa by David Kitching",
+        "title": "Libellula depressa",
+        "caption": "Broad-bodied chaser"
+    },
+    {
+        "filterName": [
+            "libellula fulva",
+            "scarce chaser"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Scarce-Chaser.html",
+        "imgUrl": "./IMG/dragonflies/Libellula fulva f Neil Malton(small).jpg",
+        "altText": "Female Libellula fulva by Neil Malton",
+        "title": "Libellula fulva",
+        "caption": "Scarce Chaser"
+    },
+    {
+        "filterName": [
+            "libellula quadrimaculata",
+            "four-spotted chaser"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Four-spotted-Chaser.html",
+        "imgUrl": "./IMG/dragonflies/Libellula quadrimaculata m 2 David Kitching(small).jpg",
+        "altText": "Male Libellula quadrimaculata by David Kitching",
+        "title": "Libellula quadrimaculata",
+        "caption": "Four-spotted Chaser"
+    },
+    {
+        "filterName": [
+            "orthetrum cancellatum",
+            "black-tailed skimmer"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Black-tailed-Skimmer.html",
+        "imgUrl": "./IMG/dragonflies/Orthetrum cancellatum m 2 David Kitching(small).jpg",
+        "altText": "Male Orthetrum cancellatum by David Kitching",
+        "title": "Orthetrum cancellatum",
+        "caption": "Black-tailed Skimmer"
+    },
+    {
+        "filterName": [
+            "orthetrum coerulescene",
+            "keeled skimmer"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Keeled-Skimmer.html",
+        "imgUrl": "./IMG/dragonflies/Orthetrum coerulescens f 3 Christian Fischer Attribution-Share Alike 3.0 Unported (small).jpg",
+        "altText": "Female Orthetrum coerulescene by Christian Fischer",
+        "title": "Orthetrum coerulescene",
+        "caption": "Keeled Skimmer"
+    },
+    {
+        "filterName": [
+            "oxygastra curtisil",
+            "orange-spotted emerald"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Orange-spotted-Emerald.html",
+        "imgUrl": "./IMG/dragonflies/oxcurf1.jpg",
+        "altText": "Photo of Oxygastra curtisil",
+        "title": "Oxygastra curtisil",
+        "caption": "Orange-spotted Emerald"
+    },
+    {
+        "filterName": [
+            "pantala flavescens",
+            "Wandering Glider"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Wandering-Glider.html",
+        "imgUrl": "./IMG/dragonflies/Pantala flavescens m Mary Keim(small).jpg",
+        "altText": "Male Pantala flavescens by Mary Keim",
+        "title": "Pantala flavescens",
+        "caption": "Wandering Glider"
+    },
+    {
+        "filterName": [
+            "platycnemis pennipes",
+            "white-legged damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/White-legged-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Platycnemis pennipes m Dave Mitchell(small).jpg",
+        "altText": "Male Platycnemis pennipes by David Mitchell",
+        "title": "Platycnemis pennipes",
+        "caption": "White-legged Damselfly"
+    },
+    {
+        "filterName": [
+            "pyrrhosoma nymphula",
+            "large red damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Large-Red-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Pyrrhosoma nymphula f 2 David Kitching(small).jpg",
+        "altText": "Female Pyrrhosoma nymphula by David Kitching",
+        "title": "Pyrrhosoma nymphula",
+        "caption": "Large Red Damselfly"
+    },
+    {
+        "filterName": [
+            "somatochlora arctica",
+            "northern emerald"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Northern-Emerald.html",
+        "imgUrl": "./IMG/dragonflies/Somatochlora arctica m 2 Piet Spaans Creative Commons Attribution-Share Alike 2.5 Generic.jpg",
+        "altText": "Male Somatochlora arctica Photo",
+        "title": "Somatochlora arctica",
+        "caption": "Northern Emerald"
+    },
+    {
+        "filterName": [
+            "somatochlora metallica",
+            "brilliant Emerald"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Brilliant-Emerald.html",
+        "imgUrl": "./IMG/dragonflies/Somatochlora metallica teneral f 1 Steve Cham(small).jpg",
+        "altText": "Female omatochlora metallica by Steve Cham",
+        "title": "Somatochlora metallica",
+        "caption": "Brilliant Emerald"
+    },
+    {
+        "filterName": [
+            "sympecma fusca",
+            "winter damselfly"
+        ],
+        "url": "./Species HTML/Damselfy Species/Winter-Damselfly.html",
+        "imgUrl": "./IMG/damselflies/Sympecma fusca m Antonio A Goncalves copy.jpg",
+        "altText": "Male Sympecma fusca by Antonio Goncalves",
+        "title": "Sympecma fusca",
+        "caption": "Winter Damselfly"
+    },
+    {
+        "filterName": [
+            "sympetrum danae",
+            "black darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Black-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum danae f 1 David Kitching(small).jpg",
+        "altText": "Female Sympetrum danae by David Kitching",
+        "title": "Sympetrum danae",
+        "caption": "Black Darter"
+    },
+    {
+        "filterName": [
+            "sympetrum flaveolum",
+            "yellow-winged darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Yellow-winged-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum flaveolum f Maxim Spirin.jpg",
+        "altText": "Female Sympetrum flaveolum by Maxim Spirin",
+        "title": "Sympetrum flaveolum",
+        "caption": "Yellow-winged Darter"
+    },
+    {
+        "filterName": [
+            "sympetrum fonscolombii",
+            "red-veined darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Red-veined-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum fonscolombei m 2 Montse Poch(small).jpg",
+        "altText": "Male Sympetrum fonscolombii by Montse Poch",
+        "title": "Sympetrum fonscolombii",
+        "caption": "Red-veined Darter"
+    },
+    {
+        "filterName": [
+            "sympetrum pedemontanum",
+            "banded darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Banded-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum pedemontanum m John Reinecke(small).jpg",
+        "altText": "Male Sympetrum pedemontanum by John Reinecke",
+        "title": "Sympetrum pedemontanum",
+        "caption": "Banded Darter"
+    },
+    {
+        "filterName": [
+            "sympetrum sanguineum",
+            "ruddy darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Ruddy-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum sanguineum m 1 Peter Hunt.jpg",
+        "altText": "Male Sympetrum sanguineum by Peter Hunt",
+        "title": "Sympetrum sanguineum",
+        "caption": "Ruddy Darter"
+    },
+    {
+        "filterName": [
+            "sympetrum striolatum",
+            "common darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Common-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum striolatum m 4 David Kitching.jpg",
+        "altText": "Male Sympetrum striolatum by David Kitching",
+        "title": "Sympetrum striolatum",
+        "caption": "Common Darter"
+    },
+    {
+        "filterName": [
+            "Sympetrum vulgatum",
+            "vagrant darter"
+        ],
+        "url": "./Species HTML/Dragonfly Species/Vagrant-Darter.html",
+        "imgUrl": "./IMG/dragonflies/Sympetrum vulgatum m Antje Schulte - flickr.jpg",
+        "altText": "Male Sympetrum vulgatum by Antje Schulte",
+        "title": "Sympetrum vulgatum",
+        "caption": "Vagrant Darter"
+    }
+]

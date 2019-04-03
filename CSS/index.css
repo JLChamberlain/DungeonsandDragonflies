@@ -11,358 +11,24 @@ html {
 
 .frame {
   margin: 0px;
+  background: url(.slide-wrapper);
   background-size: cover;
   background-position: center;
-  animation: image 100s infinite alternate; /* IE 10+, Fx 29+ */
-  -webkit-animation: image 100s infinite alternate; /* Safari 4+ */
-  -moz-animation: image 100s infinite alternate; /* Fx 5+ */
-  -o-animation: image 100s infinite alternate; /* Opera 12+ */
-  animation-duration: 120s;
 }
 
-@keyframes image {
-  0% {
-    background-image: url('/IMG/Slideshow/01.jpg');
-  }
-
-  5% {
-    background-image: url('/IMG/Slideshow/02.jpg');
-  }
-
-  10% {
-    background-image: url('/IMG/Slideshow/03.jpg');
-  }
-
-  15% {
-    background-image: url('/IMG/Slideshow/04.jpg');
-  }
-
-  20% {
-    background-image: url('/IMG/Slideshow/05.jpg');
-  }
-
-  25% {
-    background-image: url('/IMG/Slideshow/06.jpg');
-  }
-
-  30% {
-    background-image: url('/IMG/Slideshow/07.jpg');
-  }
-
-  35% {
-    background-image: url('/IMG/Slideshow/08.jpg');
-  }
-
-  40% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
-
-  45% {
-    background-image: url('/IMG/Slideshow/10.jpg');
-  }
-
-  50% {
-    background-image: url('/IMG/Slideshow/11.jpg');
-  }
-
-  55% {
-    background-image: url('/IMG/Slideshow/12.jpg');
-  }
-
-  60% {
-    background-image: url('/IMG/Slideshow/13.jpg');
-  }
-
-  65% {
-    background-image: url('/IMG/Slideshow/14.jpg');
-  }
-
-  70% {
-    background-image: url('/IMG/Slideshow/15.jpg');
-  }
-
-  75% {
-    background-image: url('/IMG/Slideshow/16.jpg');
-  }
-
-  80% {
-    background-image: url('/IMG/Slideshow/17.jpg');
-  }
-
-  85% {
-    background-image: url('/IMG/Slideshow/18.jpg');
-  }
-
-  90% {
-    background-image: url('/IMG/Slideshow/19.jpg');
-  }
-
-  95% {
-    background-image: url('/IMG/Slideshow/20.jpg');
-  }
-
-  100% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
+.slide {
+	float: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	opacity: 0;
+  transition: opacity 3s linear;
 }
 
-@-webkit-keyframes image {
-  0% {
-    background-image: url('/IMG/Slideshow/01.jpg');
-  }
-
-  5% {
-    background-image: url('/IMG/Slideshow/02.jpg');
-  }
-
-  10% {
-    background-image: url('/IMG/Slideshow/03.jpg');
-  }
-
-  15% {
-    background-image: url('/IMG/Slideshow/04.jpg');
-  }
-
-  20% {
-    background-image: url('/IMG/Slideshow/05.jpg');
-  }
-
-  25% {
-    background-image: url('/IMG/Slideshow/06.jpg');
-  }
-
-  30% {
-    background-image: url('/IMG/Slideshow/07.jpg');
-  }
-
-  35% {
-    background-image: url('/IMG/Slideshow/08.jpg');
-  }
-
-  40% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
-
-  45% {
-    background-image: url('/IMG/Slideshow/10.jpg');
-  }
-
-  50% {
-    background-image: url('/IMG/Slideshow/11.jpg');
-  }
-
-  55% {
-    background-image: url('/IMG/Slideshow/12.jpg');
-  }
-
-  60% {
-    background-image: url('/IMG/Slideshow/13.jpg');
-  }
-
-  65% {
-    background-image: url('/IMG/Slideshow/14.jpg');
-  }
-
-  70% {
-    background-image: url('/IMG/Slideshow/15.jpg');
-  }
-
-  75% {
-    background-image: url('/IMG/Slideshow/16.jpg');
-  }
-
-  80% {
-    background-image: url('/IMG/Slideshow/17.jpg');
-  }
-
-  85% {
-    background-image: url('/IMG/Slideshow/18.jpg');
-  }
-
-  90% {
-    background-image: url('/IMG/Slideshow/19.jpg');
-  }
-
-  95% {
-    background-image: url('/IMG/Slideshow/20.jpg');
-  }
-
-  100% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
 }
 
-@-moz-keyframes image {
-  0% {
-    background-image: url('/IMG/Slideshow/01.jpg');
-  }
-
-  5% {
-    background-image: url('/IMG/Slideshow/02.jpg');
-  }
-
-  10% {
-    background-image: url('/IMG/Slideshow/03.jpg');
-  }
-
-  15% {
-    background-image: url('/IMG/Slideshow/04.jpg');
-  }
-
-  20% {
-    background-image: url('/IMG/Slideshow/05.jpg');
-  }
-
-  25% {
-    background-image: url('/IMG/Slideshow/06.jpg');
-  }
-
-  30% {
-    background-image: url('/IMG/Slideshow/07.jpg');
-  }
-
-  35% {
-    background-image: url('/IMG/Slideshow/08.jpg');
-  }
-
-  40% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
-
-  45% {
-    background-image: url('/IMG/Slideshow/10.jpg');
-  }
-
-  50% {
-    background-image: url('/IMG/Slideshow/11.jpg');
-  }
-
-  55% {
-    background-image: url('/IMG/Slideshow/12.jpg');
-  }
-
-  60% {
-    background-image: url('/IMG/Slideshow/13.jpg');
-  }
-
-  65% {
-    background-image: url('/IMG/Slideshow/14.jpg');
-  }
-
-  70% {
-    background-image: url('/IMG/Slideshow/15.jpg');
-  }
-
-  75% {
-    background-image: url('/IMG/Slideshow/16.jpg');
-  }
-
-  80% {
-    background-image: url('/IMG/Slideshow/17.jpg');
-  }
-
-  85% {
-    background-image: url('/IMG/Slideshow/18.jpg');
-  }
-
-  90% {
-    background-image: url('/IMG/Slideshow/19.jpg');
-  }
-
-  95% {
-    background-image: url('/IMG/Slideshow/20.jpg');
-  }
-
-  100% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
-}
-
-@-o-keyframes image {
-  0% {
-    background-image: url('/IMG/Slideshow/01.jpg');
-  }
-
-  5% {
-    background-image: url('/IMG/Slideshow/02.jpg');
-  }
-
-  10% {
-    background-image: url('/IMG/Slideshow/03.jpg');
-  }
-
-  15% {
-    background-image: url('/IMG/Slideshow/04.jpg');
-  }
-
-  20% {
-    background-image: url('/IMG/Slideshow/05.jpg');
-  }
-
-  25% {
-    background-image: url('/IMG/Slideshow/06.jpg');
-  }
-
-  30% {
-    background-image: url('/IMG/Slideshow/07.jpg');
-  }
-
-  35% {
-    background-image: url('/IMG/Slideshow/08.jpg');
-  }
-
-  40% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
-
-  45% {
-    background-image: url('/IMG/Slideshow/10.jpg');
-  }
-
-  50% {
-    background-image: url('/IMG/Slideshow/11.jpg');
-  }
-
-  55% {
-    background-image: url('/IMG/Slideshow/12.jpg');
-  }
-
-  60% {
-    background-image: url('/IMG/Slideshow/13.jpg');
-  }
-
-  65% {
-    background-image: url('/IMG/Slideshow/14.jpg');
-  }
-
-  70% {
-    background-image: url('/IMG/Slideshow/15.jpg');
-  }
-
-  75% {
-    background-image: url('/IMG/Slideshow/16.jpg');
-  }
-
-  80% {
-    background-image: url('/IMG/Slideshow/17.jpg');
-  }
-
-  85% {
-    background-image: url('/IMG/Slideshow/18.jpg');
-  }
-
-  90% {
-    background-image: url('/IMG/Slideshow/19.jpg');
-  }
-
-  95% {
-    background-image: url('/IMG/Slideshow/20.jpg');
-  }
-
-  100% {
-    background-image: url('/IMG/Slideshow/09.jpg');
-  }
-}
 
 #RDM {
   margin: 0 auto;
@@ -374,12 +40,14 @@ html {
   font-family: serif;
   width: 85vw;
   background-color: #dfdddda1;
+  z-index: 1;
 }
 
 #O-RDM {
-  margin-top: 120px;
+  margin-top: 150px;
   padding: 10px 0px 10px 0px;
   width: 100%;
+  position: absolute;
 }
 
 #RDM h3 {
@@ -403,24 +71,6 @@ html {
   border: #ffffff;
 }
 
-footer {
-  width: 70%;
-  float: right;
-  text-align: right;
-}
-
-footer img {
-  width: 45px;
-  height: 45px;
-  margin-right: 15px;
-}
-
-footer img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  /* For IE8 and earlier */
-}
-
 .frame svg {
   position: absolute;
   margin: 10px 0px 0px 30px;
@@ -428,6 +78,7 @@ footer img:hover {
   width: 250px;
   fill: #ffffff;
   float: left;
+  z-index: 1;
 }
 
 svg:hover #DLogo {
@@ -441,6 +92,9 @@ svg:hover #DLogo {
 
 nav {
   padding: 25px 35px 25px 25px;
+  right: 0;
+  position: absolute; /* Causes overlay*/
+  z-index: 1;
 }
 
 nav ul {
@@ -477,7 +131,7 @@ nav ul li a:hover {
         left: 0;
         height: 100%;
         width: 100%;
-        z-index: -1;
+        z-index: 2;
         opacity: 0;
         transition: all 0.2s ease;
         background-color: #fffffff6;
@@ -598,4 +252,38 @@ nav ul li a:hover {
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 730px) {
+  #RDM {
+  font-size: 15px;
+  padding: 20px;
+  }
+
+  #RDM h3 {
+  font-size: 30px;
+  }
+
+  #CMTFOM {
+  font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #RDM {
+  font-size: 15px;
+  padding: 20px;
+  }
+
+  #RDM h3 {
+  font-size: 23px;
+  }
+
+  #CMTFOM {
+  font-size: 10px;
+  }
+
+  #O-RDM {
+  margin-top: 120px;
+  }
 }
