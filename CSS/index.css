@@ -63,6 +63,7 @@ html {
   border: 2px solid #3664fa;
   border-radius: 35px;
   font-size: 20px;
+  z-index: 5;
 }
 
 #CMTFOM:hover {
@@ -143,6 +144,15 @@ nav ul li a:hover {
         right: 15px;
         transform: translateY(-50%);
         width: 100%;
+    }
+
+    #RDM {
+      width: 95%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .nav-container ul li {
